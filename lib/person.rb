@@ -1,18 +1,19 @@
-class Person 
+class Person
 
-    def name=(name) #setter 
-        @name = name 
-    end 
+def name=(name)
+    @name = name 
+end 
 
-    def name  #getter 
-        @name 
-    end 
+def name 
+    @name 
+end 
 
-    def job=(job) #setter 
-        @job = job 
-    end 
+def job=(job)
+    @job = job
+end 
 
-    def job  #getter 
-        @job
-    end 
+def job 
+    @job
+end 
+
 end 
